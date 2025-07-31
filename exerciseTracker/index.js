@@ -111,18 +111,3 @@ app.get('/api/users/:_id/logs', async (req, res) => {
 const listener = app.listen(process.env.PORT || 3000, () => {
   console.log('Your app is listening on port ' + listener.address().port)
 })
-
-
-
-
-// What is cors
-// What is v4 and uuidv4
-// What is express.static and urlEncoded
-// Why to use express.json()
-// How does this line const { description, duration, date } = req.body; work
-// What is <= and how does it work or if it's less or equal then what is toDate 
-
-// Wtf is that $gte $lte
-// Select method
-// Limit method
-// What is const log = await exerciseQuery.exec()
